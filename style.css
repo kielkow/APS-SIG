@@ -1,0 +1,223 @@
+html, body {
+    font-family: Raleway, sans-serif;  
+    background-color: #bc010c;
+}
+*{
+    margin: 0;
+}
+header{
+    background-color: #bc010c;
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+header h1{
+    list-style-type: none;
+    display: inline;
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: white
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 22px;
+    padding: 15px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+nav a{
+    list-style-type: none;
+    display: inline;
+    font-size: 22px;
+    padding: 15px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: white;;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.carousel button{
+    margin-top: 30px;
+    float: left;
+    height: 50px;;
+}
+.carousel img{
+	width:100%;
+	height: 100%;
+}
+
+
+
+
+
+.quemsomos{
+    color: white;
+    width: 100%;
+    height:auto;
+    display: flex;
+    margin-top: 120px;
+}
+.p_quemsomos{
+    padding-left: 12px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.quemsomos h1{
+    padding-left: 40%;
+}
+.img_quemsomos{
+    margin-top: 4%;
+}
+
+.produto{
+    color: white;
+    width: 100%;
+    height:auto;
+    display: flex;
+    margin-top: 120px;
+}
+.p_produto{
+    padding-left: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.produto h1{
+    padding-left: 40%;
+}
+.img_produto{
+    margin-top: 2.5%;
+}
+
+
+
+
+
+footer{
+        width: 100%;
+        display: inline-block;
+        margin-top: 120px;
+        height: 0px;
+        background-color: #bc010c;
+}
+.copyright{
+        font-size: 20px;
+        width: 40%;
+        float: left;
+        @media (max-width: 600px) {
+          width: 100%;
+        }
+}
+.copyright p{
+        padding-left: 10%;
+        color: white;
+        font-size: 1em;
+        line-height: 70px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        @media (max-width: 600px) {
+          text-align: center;
+          padding: 0;
+        }
+}
+.social {
+    width: 60%;
+    height: 0%;
+    float: right;
+    @media (max-width: 600px) {
+    width: 100%;
+    }
+}
+.social a{
+        float: left;
+        line-height: 70px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-weight: bold; 
+        @include transition(all, 0.3s);
+}
+.linked {
+  background-color: #1E83AE;
+  font-size: 1.2em;
+  width: 16.65%;
+}
+
+.face {
+  background-color: #3D5B94;
+  font-size: 1.2em;
+  width: 16.65%;
+
+}
+
+.tweet {
+  background-color: #3DACDD;
+  font-size: 1.2em;
+  width: 16.65%;
+
+}
+
+.instagram {
+    background-color: #dd3f57;
+    font-size: 1.2em;
+    width: 16.65%;
+
+}
+
+.whats {
+    background-color: green;
+    font-size: 1.2em;
+    width: 16.65%;
+
+  }
+
+.support {
+  background-color: #bc010c;
+  font-size: 1.5em;
+  width: 16.65%;
+}
+
+.msg_email{
+    padding-top: 100px;
+    font-size: 1.8em;
+    width: 500px;
+    height: auto;
+}
+.input_email{
+    width: 500px;
+    border-radius: 10px;
+}
+.input_mensagem{
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.msg_email button{
+    margin-top: 15px;
+}
+
+.p_email{
+    color: white;
+    font-weight: bold;
+}
+.p_mensagem{
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.btnEnviar{
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 3px;
+}
