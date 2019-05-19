@@ -119,9 +119,9 @@ footer{
 }
 .copyright p{
         padding-left: 10%;
+        padding-top: 15px;
         color: white;
         font-size: 1em;
-        line-height: 70px;
         text-transform: capitalize;
         letter-spacing: 1px;
         @media (max-width: 600px) {
@@ -183,7 +183,7 @@ footer{
 .support {
   background-color: #bc010c;
   font-size: 1.5em;
-  width: 16.65%;
+  width: 33.4%;
 }
 
 .msg_email{
