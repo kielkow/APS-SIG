@@ -1,0 +1,194 @@
+body {
+    font-family: 'Raleway', sans-serif;  
+    background-color: #bc010c;
+    justify-content: space-around;
+}
+*{
+    margin: 0;
+}
+header{
+    background-color: #bc010c;
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+header h1{
+    width: 430px;
+    list-style-type: none;
+    display: inline;
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 0px;
+    font-weight: bold;
+    color: white
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 22px;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+}
+nav a{
+    list-style-type: none;
+    display: inline;
+    font-size: 22px;
+    padding: 15px;
+    font-weight: bold;
+    color: white;;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+#areaInfo{
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+#areaInfoPessoal{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#areaInfoCartao{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#areaInfoProduto{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item{
+    padding-right: 70px;
+    padding-top: 30px;
+}
+
+.btnComprar{
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.item p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item input{
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    display: inline-block;
+    background-color: #bc010c;
+    position: absolute;
+    bottom: 0;
+}
+.copyright{
+    font-size: 20px;
+    width: 40%;
+    float: left;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+}
+.copyright p{
+    padding-left: 10%;
+    color: white;
+    font-size: 1em;
+    line-height: 70px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    @media (max-width: 600px) {
+      text-align: center;
+      padding: 0;
+    }
+}
+.social {
+width: 60%;
+height: 0%;
+float: right;
+@media (max-width: 600px) {
+width: 100%;
+}
+}
+.social a{
+    float: left;
+    line-height: 70px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold; 
+    @include transition(all, 0.3s);
+}
+.linked {
+background-color: #1E83AE;
+font-size: 1.2em;
+width: 16.65%;
+}
+
+.face {
+background-color: #3D5B94;
+font-size: 1.2em;
+width: 16.65%;
+
+}
+
+.tweet {
+background-color: #3DACDD;
+font-size: 1.2em;
+width: 16.65%;
+
+}
+
+.instagram {
+background-color: #dd3f57;
+font-size: 1.2em;
+width: 16.65%;
+
+}
+
+.whats {
+background-color: green;
+font-size: 1.2em;
+width: 16.65%;
+
+}
+
+.support {
+background-color: #bc010c;
+font-size: 1.5em;
+width: 16.65%;
+}

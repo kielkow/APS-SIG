@@ -1,5 +1,5 @@
 html, body {
-    font-family: Raleway, sans-serif;  
+    font-family: 'Raleway', sans-serif;  
     background-color: #bc010c;
 }
 *{
@@ -12,13 +12,13 @@ header{
     display: flex;
 }
 header h1{
+    width: 430px;
     list-style-type: none;
     display: inline;
     font-size: 30px;
     padding: 15px;
     margin-top: 0px;
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
     color: white
 }
 nav ul li{
@@ -27,16 +27,15 @@ nav ul li{
     font-size: 22px;
     padding: 15px;
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
     color: white;
 }
 nav a{
+    text-decoration:none;
     list-style-type: none;
     display: inline;
     font-size: 22px;
     padding: 15px;
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
     color: white;;
 }
 nav{
@@ -108,6 +107,7 @@ footer{
         margin-top: 120px;
         height: 0px;
         background-color: #bc010c;
+        position:absolute;
 }
 .copyright{
         font-size: 20px;

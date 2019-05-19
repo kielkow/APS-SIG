@@ -31,3 +31,9 @@ function btnEnviar(){
 function btnWhats(){
     alert("Ligue para (011)90000-0000")
 }
+
+function btnComprar(){
+    confirm("Deseja efetuar a compra?")
+    document.getElementById("item").value = ''
+    alert("Compra efetuada com sucesso! Estaremos passando informações da sua conta via e-mail.")
+}

@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Compra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="styleCompra.css">
+    <script src="script.js"></script>
+    <title>Temperos - Comprar</title>
 </head>
+
 <body>
-    
+
+    <header>
+        <h1>Temperos Dona Horta</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Quem somos?</a></li>
+                <li><a href="compra.html">Comprar</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="areaInfo">
+        <section id="areaInfoPessoal">
+            <div class="item">
+                <p>Nome</p>
+                <input type="text">
+            </div>
+            <div class="item">
+                <p>Sobrenome</p>
+                <input type="text">
+            </div>
+            <div class="item">
+                <p>E-mail</p>
+                <input type="email">
+            </div>
+            <div class="item">
+                <p>Cel</p>
+                <input type="text">
+            </div>
+            <div class="item">
+                <p>CEP</p>
+                <input type="number">
+            </div>
+        </section>
+
+        <section id="areaInfoCartao">
+            <div class="item">
+                <p>Numero do Cartão</p>
+                <input type="number">
+            </div>
+            <div class="item">
+                <p>Data de Vencimento</p>
+                <input type="date">
+            </div>
+            <div class="item">
+                <p>CVV</p>
+                <input type="number">
+            </div>
+        </section>
+
+        <section id="areaInfoProduto">
+            <div class="item">
+                <p>Quantidade</p>
+                <input type="number">
+            </div>
+        </section>
+    </section>
+
+    <button onclick="btnComprar()" class="btnComprar">Comprar</button>
+
+    <footer id="footer">
+        <div class="copyright">
+            <p>&Copyright 2019 - Temperos</p>
+        </div>
+        <div class="social">
+            <a href="#footer" class="support">Contatos</a>
+            <a href="#" class="face">facebook</a>
+            <a href="#" class="tweet">twitter</a>
+            <a href="#" class="instagram">instagram</a>
+            <a href="#" class="linked">linkedin</a>
+            <a href="#footer" class="whats" onclick="btnWhats()">whatsapp</a>
+        </div>
+    </footer>
+
 </body>
+
 </html>
