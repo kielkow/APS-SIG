@@ -12,7 +12,7 @@ header{
     display: flex;
 }
 header h1{
-    width: 430px;
+    width: 450px;
     list-style-type: none;
     display: inline;
     font-size: 30px;
@@ -209,6 +209,7 @@ footer{
 .p_email{
     color: white;
     font-weight: bold;
+    padding-top: 10px;
 }
 .p_mensagem{
     margin-top: 20px;
